@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuned Programmer - Mario-Style Portfolio</title>
+    
+    <!-- Link to the Mario-style font -->
+    <link rel="stylesheet" href="fonts/SuperMario256.css">
+
+    <!-- Link to the main CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon (Mario-themed) -->
+    <link rel="icon" href="assets/icons/coin.png" type="image/png">
+</head>
+<audio id="bgm" autoplay loop>
+    <source src="assets/audio/background-music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<audio id="jump-sound">
+    <source src="assets/audio/jump-sound.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<body>
+    <div class="game-container">
+        <header>
+            <img src="assets/mario-logo.png" alt="Logo" class="logo">
+            <h1>Yash Kulkarni</h1>
+            <p>Merging Code with Creativity</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="section">
+            <div class="character">
+                <img src="assets/sprites/mario-sprite.png" alt="Your Character">
+            </div>
+            <div class="dialogue-box">
+                <p>Welcome to my Mario-inspired portfolio! Jump into my world of code, music, and creativity.</p>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm a CSE graduate with a passion for coding, music, and creativity. From building secure blockchain systems to composing soulful melodies, I merge technology with artistry.</p>
+            <p>End-career goal: To work in a major multinational company within two years, while continuing to explore and innovate in both tech and music.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="assets/icons/coin.png" alt="Icon" class="project-icon">
+                <h3>Blockchain-based Document Verification System</h3>
+                <p>This project leverages the immutability of blockchain technology to create a secure and tamper-proof system for verifying documents. By utilizing smart contracts, it ensures that once a document is verified, it cannot be altered, providing a reliable way for institutions and organizations to authenticate documents. This system is particularly useful for educational certificates, legal documents, and any scenario where authenticity is critical.</p>
+                <a href="https://github.com/tunedprogrammer/Final" target="_blank" class="github-link">
+                   View on GitHub
+                </a>
+            </div>
+            <div class="project">
+                <img src="assets/icons/coin.png" alt="Icon" class="project-icon">
+                <h3>Raga Prediction and Analysis using Machine Learning</h3>
+                <p>This innovative project explores the intersection of music and technology by applying machine learning algorithms to predict and analyze musical ragas. The system can identify patterns in audio files and match them to known ragas, offering musicians and researchers a tool to deepen their understanding of classical music. It also includes features for visualizing raga structures and analyzing their use in various compositions.</p>
+                <a href="https://github.com/tunedprogrammer/Raga-Prediction-Try" target="_blank" class="github-link">
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project">
+                <img src="assets/icons/coin.png" alt="Icon" class="project-icon">
+                <h3>Blockchain-based Crowdfunding Platform</h3>
+                <p>Designed to provide a transparent and secure platform for crowdfunding, this project utilizes blockchain to track contributions and ensure that funds are used as intended. The platform offers potential backers peace of mind by allowing them to see where their money is going, while project creators benefit from the trust that blockchain brings. Smart contracts automate the release of funds based on milestones, reducing the risk for both parties.</p>
+                <p>This Project is made private for security purposes</p>
+            </div>
+            <div class="project">
+                <img src="assets/icons/coin.png" alt="Icon" class="project-icon">
+                <h3>Weather Website</h3>
+                <p>This project is a fully responsive web application that provides users with real-time weather information. By integrating with external APIs, it delivers accurate and up-to-date weather data for any location. The website also features an intuitive user interface with interactive elements, such as search functionality, animated weather icons, and detailed forecasts. It is built with scalability in mind, allowing for the addition of new features like alerts and weather-related news.</p>
+                <p>This is basic website please checkout at www.mrunal181.github.io/weathetewbsite.html</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <section id="music" class="section">
+            <h2>Music</h2>
+            <p>As a singer-songwriter, my music blends acoustic elements with techno influences. Check out some of my latest tracks and covers.</p>
+            <!-- Embed your music or link to your SoundCloud, YouTube, etc. -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TsDobfs-Ss4?si=uiiOfC8BNS936Yr2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Let's collaborate or just chat! Reach out to me at kulkarniyash1602@gmail.com or connect with me on LinkedIn.</p>
+        </section>
+        <footer>
+            <p>&copy; 2024 Yash Kulkarni. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Link to the main JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
